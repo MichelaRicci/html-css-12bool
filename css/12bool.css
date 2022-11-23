@@ -5,3 +5,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utils */
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Row */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    max-width: 100%;
+}
+
+
+/* Column */
+
+[class^='col'] {
+    flex: 0, 0, auto;
+}
+
+
+/* Griglia 12 colonne */
+
+.row > .col-1 {
+    flex-basis: calc(100% / 12);
+}
