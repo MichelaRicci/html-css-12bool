@@ -3,7 +3,8 @@
 body {
     font-family: sans-serif;
     padding: 0;
-    color: white
+    color: white;
+    font-size: 12px;
 }
 
 .row {
